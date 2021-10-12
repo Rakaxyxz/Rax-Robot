@@ -12,7 +12,7 @@ __help__ = """
  ❍ /wttr moon*:* Get the current status of moon
  
 *Quotly*
-- /q : reply any message with this command to create a sticker.
+- /q : emang anak ngentot kalo mao buat quotes reply dlu harus di reply.
 
 *Converts*
  ❍ /encrypt*:* Encrypts The Given Text
