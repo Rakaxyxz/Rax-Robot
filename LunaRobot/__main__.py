@@ -74,27 +74,27 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-[🌻](https://telegra.ph/file/e38e9af544bafa53a3b3b.jpg) `ʜᴀɪ ᴛʜᴇʀᴇ ɪ'ᴍ` [ʟᴜɴᴀ.](https://t.me/lunatapibot)
+[🔥](https://telegra.ph/file/065bcb9beb2f286f22c61.jpg) `Hai Anak Anjing` [RaxsManage.](https://t.me/Raxrobot)
 ════════════════════════
-`ʟᴜɴᴀ ɪs sᴘᴇᴄɪᴀʟʟʏ ᴍᴀᴅᴇ ʙʏ` [ᴢᴇɪɴᴢᴏ](https://t.me/zeinzo_1) `ᴛᴏ ᴋᴇᴇᴘ ᴡᴏᴍᴇɴ ᴀᴡᴀʏ ғʀᴏᴍ ᴛʜᴇ ᴍɪʟʟɪᴏɴs ᴏғ ʙᴀᴅ ɢᴜʏs ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ`
+`RaxsManage Bot adalah pesial dibuat Oleh` [DEADPOOL](https://t.me/ImThelastKingMs) `Untuk tetap Mengamankan Group Anda Dari jamet jamet marabahaya yang sering joget joget`
 ════════════════════════
-`Click the button below to learn more how to use me.`
+`Klik tombol di bawah ini untuk mempelajari lebih lanjut cara menggunakan saya..`
 ════════════════════════
 """
 
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ʟᴜɴᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/lunatapibot?startgroup=true"),
+            text="➕️ Tambahkan Gua Ke grup Lu ➕️", url="t.me/RaxRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="Luna_"),
+        InlineKeyboardButton(text="Tentang", callback_data="raxsmanage_"),
         InlineKeyboardButton(
             text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/aboutraks"
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
+        InlineKeyboardButton(text="Bantuan Dan Perintah❔", callback_data="help_back"),
     ],
 ]
 
@@ -106,8 +106,8 @@ HELP_STRINGS = """
 Luna_IMG = "https://telegra.ph/file/e38e9af544bafa53a3b3b.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [zeinzo](t.me/zeinzo_1) \
- Supporting isnt always financial! [All about music](t.me/lunasupportgroup) \
+ You can support the project [Rakamanage](t.me/ImThelastKingMs) \
+ Supporting isnt always financial! [All about music](t.me/Joinsiniiajg) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
@@ -121,7 +121,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("LunaRobot.modules." + module_name)
+    imported_module = importlib.import_module("Raxsmanage.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -361,10 +361,10 @@ def Luna_about_callback(update, context):
                  \n I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n I check for admins' permissions before executing any command and more stuffs
                  \n\n_Luna's licensed under the GNU General Public License v3.0_
-                 \n❍ Awesome Bots @aboutraks
-                 \n❍ Support Group @lunasupportgroup
-                 \n❍ Assistant @LunaAssistant.
-                 \nHere is the 💾[Repository.](https://github.com/zeinzo)""",
+                 \n❍ Awesome Bots @raxsstory
+                 \n❍ Support Group @joinsiniiajg
+                 \n❍ Assistant @ImTheLastKings.
+                 \nHere is the 💾[Repository.](https://github.com/Rakaxyxz)""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
