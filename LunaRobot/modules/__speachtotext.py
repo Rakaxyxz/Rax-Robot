@@ -89,7 +89,7 @@ async def _(event):
             # now, remove the temporary file
             os.remove(required_file_name)
     else:
-        await event.reply("Reply to a voice message, to get the text out of it.")
+        await event.reply("Reply pesan dulu kontol kalo mau text touch sound.")
 
 
 __help__ = """
