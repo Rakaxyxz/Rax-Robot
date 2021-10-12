@@ -1,7 +1,7 @@
 {
-      "name": "Flicks-Robot",
-      "description": "Telegram group management bot, Can help you to manage and maintain your group.",
-      "logo": "https://telegra.ph/file/3534d0e0caadfe67ed22d.jpg",
+      "name": "Raxs-Robot",
+      "description": "Telegram group manage adalah untuk menolong anda dari pada jamet jamet .",
+      "logo": "https://telegra.ph/file/065bcb9beb2f286f22c61.jpg",
       "keywords": [
          "telegram",
          "anime",
@@ -9,7 +9,7 @@
          "manager",
          "Luna-ex"
       ],   
-   "repository": "https://github.com/zeinzo/LunaRobot",
+   "repository": "https://github.com/ImThelastKingMs/Rax-robot",
    "addons": [
       {
          "options": {
@@ -67,12 +67,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "rizexx"
+         "value": "ImThelastKingMs"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "nyanyiisinii"
+         "value": "joinsiniiajg"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -182,7 +182,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://t.me/rizexx"
+         "value": "https://t.me/ImThelastKingMs"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
