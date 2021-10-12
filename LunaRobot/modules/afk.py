@@ -38,7 +38,7 @@ def afk(update: Update, context: CallbackContext):
     sql.set_afk(update.effective_user.id, reason)
     fname = update.effective_user.first_name
     try:
-        update.effective_message.reply_text("{} Sedang Sibuk Sekarang!{}".format(fname, notice))
+        update.effective_message.reply_text("{} Sedang Sibuk Ngamen Sekarang!{}".format(fname, notice))
     except BadRequest:
         pass
 
@@ -58,13 +58,13 @@ def no_longer_afk(update: Update, context: CallbackContext):
         firstname = update.effective_user.first_name
         try:
             options = [
-                "{} Disini Lagi, Pasti Abis Farming",
-                "{} Akhirnya Kembali",
+                "{} Disini Lagi, Pasti Abis Onkem Di sebelah haha",
+                "{} Si monyet Akhirnya Kembali",
                 "{} Di Kangenin Banyak Orang Tapi Bukan Gua",
-                "{} Abis Nonton Pasti",
-                "{} Lord Kembali Online",
-                "{} Wapada Orang Goodloking Lagi Online",
-                "Selamat Datang Kembali Lord {}",
+                "{} Abis Nonton bokep Pasti",
+                "{} jelek Kembali Online",
+                "{} Waspada Orang jelek Lagi Online",
+                "Selamat Datang Kembali jelek {}",
                 "Kemana Si {}?\nDia Abis Ngent",
             ]
             chosen_option = random.choice(options)
